@@ -1,0 +1,56 @@
+.card-1 {
+    background-color: #414141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    border-radius: 10px;
+    padding: 32px;
+   box-shadow: 0 4px 8px 0 rgba(217, 217, 217, 0.2), 0 0 10px 0 rgba(217, 217, 217, 0.1);
+  
+  
+ }
+ 
+ .frame {
+   background-color: lightblue;
+   width: 600px;
+   height: 500px;
+   overflow: auto;
+   justify-self: center 
+   
+ }
+ 
+ table, tr {
+   border: 1px solid black;
+   border-collapse: collapse;
+   height: 800px;
+   width: 800px;
+ }
+ 
+ .td-text-right {
+   border: 1px solid black;
+   border-collapse: collapse;
+   text-align: right;
+   padding: 8px;
+ }
+ 
+ .td-text-left {
+   border: 1px solid black;
+   border-collapse: collapse;
+   text-align: left;
+   padding: 8px;
+ }
+ 
+ .content {padding: 32px}
+ 
+ .full-page-container {
+   width: 100%;
+   height: 100%;
+   background-color: black;
+ }
+ 
+ body, html {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+ }
